@@ -1,5 +1,5 @@
 {
-    "name": "webfactor/laravel-generators",
+    "name": "webfactor/laravel-backpack-fluentsyntax",
     "type": "library",
     "description": "Laravel generators for quickly creating entities.",
     "keywords": [

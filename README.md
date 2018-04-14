@@ -1,4 +1,4 @@
-# laravel-backpack-fluent
+# laravel-backpack-fluentsyntax
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -15,7 +15,7 @@ This is a package developed by us for internal use and is supposed to provide a 
 ### Via Composer
 
 ``` bash
-composer require webfactor/laravel-backpack-fluent
+composer require webfactor/laravel-backpack-fluentsyntax
 ```
 
 ## Change log
