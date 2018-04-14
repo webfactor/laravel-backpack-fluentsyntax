@@ -39,19 +39,19 @@ If you discover any security related issues, please email thomas.swonke@webfacto
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/webfactor/laravel-backpack-fluent.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/webfactor/laravel-backpack-fluentsyntax.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-style-ci]: https://styleci.io/repos/125574603/shield
-[ico-travis]: https://img.shields.io/travis/webfactor/laravel-backpack-fluent/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/webfactor/laravel-backpack-fluent.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/webfactor/laravel-backpack-fluent.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/webfactor/laravel-backpack-fluent.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/webfactor/laravel-backpack-fluentsyntax/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/webfactor/laravel-backpack-fluentsyntax.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/webfactor/laravel-backpack-fluentsyntax.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/webfactor/laravel-backpack-fluentsyntax.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/webfactor/laravel-backpack-fluent
+[link-packagist]: https://packagist.org/packages/webfactor/laravel-backpack-fluentsyntax
 [link-style-ci]: https://styleci.io/repos/125574603
-[link-travis]: https://travis-ci.org/webfactor/laravel-backpack-fluent
-[link-scrutinizer]: https://scrutinizer-ci.com/g/webfactor/laravel-backpack-fluent/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/webfactor/laravel-backpack-fluent
-[link-downloads]: https://packagist.org/packages/webfactor/laravel-backpack-fluent
+[link-travis]: https://travis-ci.org/webfactor/laravel-backpack-fluentsyntax
+[link-scrutinizer]: https://scrutinizer-ci.com/g/webfactor/laravel-backpack-fluentsyntax/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/webfactor/laravel-backpack-fluentsyntax
+[link-downloads]: https://packagist.org/packages/webfactor/laravel-backpack-fluentsyntax
 [link-author]: https://github.com/tswonke
 [link-contributors]: ../../contributors
