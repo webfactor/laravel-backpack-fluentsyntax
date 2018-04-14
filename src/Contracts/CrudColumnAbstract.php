@@ -9,11 +9,4 @@ abstract class CrudColumnAbstract extends CrudAbstract implements CrudColumnInte
     | Methods available for all Column Types
     |--------------------------------------------------------------------------
     */
-
-    public function limit(int $limit = 50)
-    {
-        $this->options['limit'] = $limit;
-
-        return $this;
-    }
 }
