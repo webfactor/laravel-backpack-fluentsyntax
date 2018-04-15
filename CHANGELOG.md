@@ -21,6 +21,11 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Security
 - Nothing
 
+## 1.0.0 - 2018-04-15
+
+### Added
+- initial Version with a basic set of Fields and Columns
+
 ## 0.0.1 - 2018-04-14
 
 ### Added
