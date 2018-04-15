@@ -10,6 +10,7 @@ use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DatePickerField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DateRangeField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DateTimePickerField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\EmailField;
+use Webfactor\Laravel\Backpack\FluentSyntax\Fields\EnumField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\HiddenField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\NumberField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\PasswordField;
@@ -77,6 +78,11 @@ trait FluentFields
     public function emailField(string $name): EmailField
     {
         return new EmailField($name);
+    }
+
+    public function enumField(string $name): EnumField
+    {
+        return new EnumField($name);
     }
 
     public function hiddenField(string $name): HiddenField
