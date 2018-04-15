@@ -14,6 +14,13 @@ class DateTimePickerField extends CrudFieldAbstract
 
     protected $type = 'datetime_picker';
 
+    public function __construct(string $name)
+    {
+        parent::__construct($name);
+
+        $this->format('DD.MM.YYYY HH:mm');
+    }
+
     public function nullable(bool $nullable = true)
     {
         $this->options['allows_null'] = $nullable;
