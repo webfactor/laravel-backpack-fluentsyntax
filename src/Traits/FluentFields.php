@@ -14,6 +14,7 @@ use Webfactor\Laravel\Backpack\FluentSyntax\Fields\PasswordField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\SummernoteField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\TextareaField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\TextField;
+use Webfactor\Laravel\Backpack\FluentSyntax\Fields\UrlField;
 
 trait FluentFields
 {
@@ -94,5 +95,10 @@ trait FluentFields
     public function textField(string $name): TextField
     {
         return new TextField($name);
+    }
+
+    public function urlField(string $name): UrlField
+    {
+        return new UrlField($name);
     }
 }
