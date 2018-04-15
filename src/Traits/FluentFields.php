@@ -7,6 +7,7 @@ use Webfactor\Laravel\Backpack\FluentSyntax\Fields\AddressField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\CheckboxField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DatePickerField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DateTimePickerField;
+use Webfactor\Laravel\Backpack\FluentSyntax\Fields\EmailField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\SummernoteField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\TextareaField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\TextField;
@@ -55,6 +56,11 @@ trait FluentFields
     public function dateTimePickerField(string $name): DateTimePickerField
     {
         return new DateTimePickerField($name);
+    }
+
+    public function emailField(string $name): EmailField
+    {
+        return new EmailField($name);
     }
 
     public function summernoteField(string $name): SummernoteField
