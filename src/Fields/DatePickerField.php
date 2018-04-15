@@ -14,6 +14,13 @@ class DatePickerField extends CrudFieldAbstract
 
     protected $type = 'date_picker';
 
+    public function __construct(string $name)
+    {
+        parent::__construct($name);
+
+        $this->format('dd.mm.yyyy');
+    }
+
     public function todayButton(bool $button = true)
     {
         $this->options['date_picker_options']['todayBtn'] = $button;

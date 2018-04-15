@@ -21,6 +21,16 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Security
 - Nothing
 
+## 1.1.0 - 2018-04-16
+
+### Added
+- ColorPickerField
+- DateRangeField
+- EnumField
+- IconPickerField
+- ImageField
+- fieldAttributes(), wrapperAttributes() and col()-helper
+
 ## 1.0.0 - 2018-04-15
 
 ### Added
