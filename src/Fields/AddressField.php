@@ -13,9 +13,9 @@ class AddressField extends CrudFieldAbstract
 
     protected $type = 'address';
 
-    public function toJson(bool $json = true)
+    public function toJson()
     {
-        $this->options['store_as_json'] = $json;
+        $this->options['store_as_json'] = true;
 
         return $this;
     }
