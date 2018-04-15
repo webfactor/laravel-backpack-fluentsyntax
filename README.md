@@ -18,6 +18,35 @@ This is a package developed by us for internal use and is supposed to provide a 
 composer require webfactor/laravel-backpack-fluentsyntax
 ```
 
+## Usage
+
+### Attention
+
+To use FluentSyntax please add `Webfactor\Laravel\Backpack\FluentSyntax\Traits\FluentSyntax` in all of your Backpack CrudControllers:
+
+``` php
+use Webfactor\Laravel\Backpack\FluentSyntax\Traits\FluentSyntax;
+
+class ExampleCrudController extends CrudController
+{
+    use FluentSyntax;
+
+    public function setup()
+    {
+        //
+    }
+//
+}
+```
+
+### Add Fluent Crud Fields
+
+// todo: write example
+
+### Add Fluent Crud Columns
+
+// todo: write example
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.

@@ -1,7 +1,7 @@
 {
     "name": "webfactor/laravel-backpack-fluentsyntax",
     "type": "library",
-    "description": "Laravel generators for quickly creating entities.",
+    "description": "Adds fluent syntax for creating Laravel Backpack Fields and Columns",
     "keywords": [
         "webfactor",
         "laravel",
