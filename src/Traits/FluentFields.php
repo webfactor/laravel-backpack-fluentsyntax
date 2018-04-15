@@ -5,6 +5,7 @@ namespace Webfactor\Laravel\Backpack\FluentSyntax\Traits;
 use Webfactor\Laravel\Backpack\FluentSyntax\Contracts\CrudFieldInterface;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\AddressField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\CheckboxField;
+use Webfactor\Laravel\Backpack\FluentSyntax\Fields\SummernoteField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\TextareaField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\TextField;
 
@@ -42,6 +43,11 @@ trait FluentFields
     public function checkboxField(string $name): CheckboxField
     {
         return new CheckboxField($name);
+    }
+
+    public function summernoteField(string $name): SummernoteField
+    {
+        return new SummernoteField($name);
     }
 
     public function textareaField(string $name): TextareaField
