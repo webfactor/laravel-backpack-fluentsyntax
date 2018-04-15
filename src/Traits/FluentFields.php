@@ -9,6 +9,7 @@ use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DatePickerField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DateTimePickerField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\EmailField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\HiddenField;
+use Webfactor\Laravel\Backpack\FluentSyntax\Fields\NumberField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\SummernoteField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\TextareaField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\TextField;
@@ -67,6 +68,11 @@ trait FluentFields
     public function hiddenField(string $name): HiddenField
     {
         return new HiddenField($name);
+    }
+
+    public function numberField(string $name): NumberField
+    {
+        return new NumberField($name);
     }
 
     public function summernoteField(string $name): SummernoteField
