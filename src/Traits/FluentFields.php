@@ -5,6 +5,7 @@ namespace Webfactor\Laravel\Backpack\FluentSyntax\Traits;
 use Webfactor\Laravel\Backpack\FluentSyntax\Contracts\CrudFieldInterface;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\AddressField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\CheckboxField;
+use Webfactor\Laravel\Backpack\FluentSyntax\Fields\ColorPickerField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DatePickerField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\DateTimePickerField;
 use Webfactor\Laravel\Backpack\FluentSyntax\Fields\EmailField;
@@ -50,6 +51,11 @@ trait FluentFields
     public function checkboxField(string $name): CheckboxField
     {
         return new CheckboxField($name);
+    }
+
+    public function colorPickerField(string $name): ColorPickerField
+    {
+        return new ColorPickerField($name);
     }
 
     public function datePickerField(string $name): DatePickerField
