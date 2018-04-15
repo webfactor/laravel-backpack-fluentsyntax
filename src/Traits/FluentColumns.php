@@ -21,6 +21,12 @@ use Webfactor\Laravel\Backpack\FluentSyntax\Contracts\CrudColumnInterface;
 
 trait FluentColumns
 {
+    /*
+    |--------------------------------------------------------------------------
+    | Methods for providing Fluent Columns
+    |--------------------------------------------------------------------------
+    */
+
     public function addColumns(array $columns)
     {
         foreach ($columns as $column) {
@@ -32,6 +38,12 @@ trait FluentColumns
     {
         return $this->crud->addColumn($column->make());
     }
+
+    /*
+    |--------------------------------------------------------------------------
+    | Definition of all Column Types
+    |--------------------------------------------------------------------------
+    */
 
     public function arrayColumn(string $name): ArrayColumn
     {

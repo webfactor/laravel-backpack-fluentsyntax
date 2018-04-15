@@ -8,9 +8,23 @@ use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Hintable;
 use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Prefixable;
 use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Suffixable;
 
-class TextField extends CrudFieldAbstract
+class NumberField extends CrudFieldAbstract
 {
-    use Prefixable, Suffixable, Defaultable, Hintable;
+    use Prefixable, Suffixable, Hintable, Defaultable;
 
-    protected $type = 'text';
+    protected $type = 'number';
+
+    public function allowDecimals()
+    {
+        $this->options['attributes']['step'] = 'any';
+
+        return $this;
+    }
+
+    public function steps(int $steps)
+    {
+        $this->options['attributes']['step'] = $steps;
+
+        return $this;
+    }
 }

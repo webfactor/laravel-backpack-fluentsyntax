@@ -8,9 +8,9 @@ use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Hintable;
 use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Prefixable;
 use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Suffixable;
 
-class TextField extends CrudFieldAbstract
+class CheckboxField extends CrudFieldAbstract
 {
-    use Prefixable, Suffixable, Defaultable, Hintable;
+    use Hintable, Defaultable;
 
-    protected $type = 'text';
+    protected $type = 'checkbox';
 }

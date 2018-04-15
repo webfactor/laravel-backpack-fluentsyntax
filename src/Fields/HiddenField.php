@@ -8,9 +8,7 @@ use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Hintable;
 use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Prefixable;
 use Webfactor\Laravel\Backpack\FluentSyntax\Traits\Suffixable;
 
-class TextField extends CrudFieldAbstract
+class HiddenField extends CrudFieldAbstract
 {
-    use Prefixable, Suffixable, Defaultable, Hintable;
-
-    protected $type = 'text';
+    protected $type = 'hidden';
 }
