@@ -22,7 +22,11 @@ class RadioField extends CrudFieldAbstract
 
     public function addOption($value, $key)
     {
-      $this->options['options'][$value] = $key;
+      if(is_null($key)) {
+        $this->options['options'][] = $value;
+      } else {
+        $this->options['options'][$key] = $value;
+      }
 
       return $this;
     }
