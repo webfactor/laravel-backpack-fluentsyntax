@@ -21,6 +21,19 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Security
 - Nothing
 
+## 1.3.0 - 2018-08-22
+
+### Added
+- radio field #6
+
+## 1.2.0 - 2018-07-08
+
+### Fixed
+- imports
+
+### Removed
+- helper methods
+
 ## 1.1.0 - 2018-04-16
 
 ### Added
