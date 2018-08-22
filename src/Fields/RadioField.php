@@ -13,6 +13,11 @@ class RadioField extends CrudFieldAbstract
 
     protected $type = 'radio';
 
+    /**
+     * Set options for the fields
+     * @param  array  $options array of option
+     * @return mixed
+     */
     public function options(array $options)
     {
       $this->options['options'] = $options;
@@ -20,7 +25,12 @@ class RadioField extends CrudFieldAbstract
       return $this;
     }
 
-    public function addOption($value, $key)
+    /**
+     * Add option to a field that is already set
+     * @param string $value text that is shown to the user
+     * @param null|string $key   the value of the new text
+     */
+    public function addOption($value, $key = null)
     {
       if(is_null($key)) {
         $this->options['options'][] = $value;
